@@ -25,6 +25,14 @@ sudo apt-get -y build-dep php5
 # tools
 sudo apt-get -y install zip vim re2c
 
+#
+# composer
+#
+mkdir /home/vagrant/bin
+curl -sS https://getcomposer.org/installer | php -- --install-dir=/home/vagrant/bin
+mv /home/vagrant/bin/composer.phar /home/vagrant/bin/composer
+chown -R vagrant:vagrant /home/vagrant/bin
+
 # copy files to home
 cp -f /vagrant/files/dot/.bash_aliases /home/vagrant/
 sudo chown vagrant:vagrant .bash_aliases

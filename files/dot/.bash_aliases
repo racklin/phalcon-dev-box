@@ -51,5 +51,5 @@ alias grep='grep --color=auto -in'
 alias v='vim'
 alias ..='cd ..'
 
-export PATH="/home/vagrant/zephir/bin:$PATH"
+export PATH="/home/vagrant/bin:/home/vagrant/zephir/bin:$PATH"
 
