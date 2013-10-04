@@ -12,8 +12,12 @@ Next steps:
 -----------
 If you have not installed Vagrant yet, go to http://downloads.vagrantup.com/
 
-Copy the contents of this archive to a new folder
-and run there:
+Clone this project:
+
+    $ git clone git@github.com:racklin/phalcon-dev-box.git
+    $ cd phalcon-dev-box
+    
+Boot up:
 
     $ vagrant up
 
