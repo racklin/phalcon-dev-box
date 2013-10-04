@@ -1,4 +1,4 @@
-Precise32 Box for PhalconPHP Development
+Precise32 Virtual Machine for PhalconPHP Development
 ==============================================================
 
 The setup includes:
@@ -6,6 +6,7 @@ The setup includes:
 * box:       precise32 (http://files.vagrantup.com/precise32.box)
 * PHP:       PHP 5.3
 * WebServer: Nginx Light 1.4.1
+* Phalcon: 1.2.3
 
 Next steps:
 -----------
