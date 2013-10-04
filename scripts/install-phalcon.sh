@@ -10,7 +10,7 @@ sudo ./install
 
 sudo cp -f /vagrant/files/etc/php5/conf.d/phalcon.ini /etc/php5/conf.d/
 
-sudo chmod -R vagrant:vagrant /home/vagrant/cphalcon
+sudo chown -R vagrant:vagrant /home/vagrant/cphalcon
 
 # restart php5-fpm
 /etc/init.d/php5-fpm restart
@@ -26,5 +26,5 @@ echo '{ "require": { "phalcon/devtools": "dev-master" } }' > composer.json
 
 ln -s /home/vagrant/phalcon-devtools/vendor/phalcon/devtools/phalcon.php /home/vagrant/bin/phalcon
 
-sudo chmod -R vagrant:vagrant /home/vagrant/phalcon-devtools
-sudo chmod -R vagrant:vagrant /home/vagrant/bin
+sudo chown -R vagrant:vagrant /home/vagrant/phalcon-devtools
+sudo chown -R vagrant:vagrant /home/vagrant/bin
