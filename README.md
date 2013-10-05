@@ -25,4 +25,16 @@ Afterwards you may access your box with
 
     $ vagrant ssh
 
+Web Contents:
+-----------
+Put your website in `www/` directory and vagrant is forward 8080 port to guest OS 80 port.
+You can't open `http://localhost:8080/` in your Host OS browser.
+
+PreInstalled Command-Line Tools:
+-----------
+* composer
+* phalcon-dev-tools
+* zephir
+
+
 Enjoy!
